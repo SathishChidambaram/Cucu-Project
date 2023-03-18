@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="172.879018">
+<testcase classname="To Check the Functionality of Facebook" name="To Validate the UsenName and Password In Facebook" time="79.138887">
+<system-out><![CDATA[Given Going to Launch the ChromeBrowser and Maximize the Window.............passed
+When Launching the Current URL..............................................passed
+When Passing UserName in UserName textbox...................................passed
+And Passing Password in Password textbox....................................passed
+And Finally Clicking Login Key..............................................passed
+Then Closing The Browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Check the Functionality of Facebook" name="To Validate the UserName and Password" time="29.590576">
+<system-out><![CDATA[Given Going to Launch the ChromeBrowser and Maximize the Window.............passed
+When Launching the URL......................................................passed
+When Passing userName Value from Tables "Sathish"...........................passed
+When Passing passWord Value from Tables "sathish@123".......................passed
+And Clicking Login Button...................................................passed
+Then Closing the Browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Check the Functionality of Facebook" name="To Validate the UserName and Password 2" time="13.716887">
+<system-out><![CDATA[Given Going to Launch the ChromeBrowser and Maximize the Window.............passed
+When Launching the URL......................................................passed
+When Passing userName Value from Tables "Jeni"..............................passed
+When Passing passWord Value from Tables "jeni@123"..........................passed
+And Clicking Login Button...................................................passed
+Then Closing the Browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Check the Functionality of Facebook" name="To Validate the UserName and Password 3" time="22.424681">
+<system-out><![CDATA[Given Going to Launch the ChromeBrowser and Maximize the Window.............passed
+When Launching the URL......................................................passed
+When Passing userName Value from Tables "Swetha"............................passed
+When Passing passWord Value from Tables "swetha@123"........................passed
+And Clicking Login Button...................................................passed
+Then Closing the Browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Check the Functionality of Facebook" name="Validating the UserName and Password" time="13.946793">
+<system-out><![CDATA[Given Going to Launch the ChromeBrowser and Maximize the Window.............passed
+When Launching URL..........................................................passed
+When Passing value in userName OneDimensionalList...........................passed
+When Passing value in passWordTwoDimensionalList............................passed
+When Close the Browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Check the Functionality of Facebook" name="Valid the uName and pass" time="14.061194">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.stepdefinition.Facebook4.pass_Value_in_passWord_TwoDimensionalMap(Facebook4.java:33)&#13;&#10;&#9;at ✽.Pass Value in passWord TwoDimensionalMaps(C:/Users/sathi/eclipse-workspace/Maven_Cucumber/src/test/resources/Facebook.feature:41)&#13;&#10;"><![CDATA[Given Going to Launch the ChromeBrowser and Maximize the Window.............passed
+When launch.................................................................passed
+When Pass Value in userName OneDimensionalMap...............................passed
+When Pass Value in passWord TwoDimensionalMaps..............................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at org.stepdefinition.Facebook4.pass_Value_in_passWord_TwoDimensionalMap(Facebook4.java:33)
+	at ✽.Pass Value in passWord TwoDimensionalMaps(C:/Users/sathi/eclipse-workspace/Maven_Cucumber/src/test/resources/Facebook.feature:41)
+]]></failure>
+</testcase>
+</testsuite>
